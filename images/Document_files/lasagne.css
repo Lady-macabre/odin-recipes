@@ -1,0 +1,60 @@
+h1 {
+    color: #000000;
+    background-color: rgb(143, 197, 117);
+    font-size: 70px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter; 
+    font-stretch: expanded;
+    margin: 0;
+    padding: 30px;
+}
+
+.navbar {
+    text-align: center;
+    list-style-type: none;
+    margin: 0 0 35px 0;
+    padding: 0;
+    background-color: rgb(255, 0, 0);
+    border-bottom:#000000 1px solid;   
+    border-top: #000000 1px solid;
+}
+
+body {
+    margin: 0;
+
+}
+
+.lasagne {
+        width: 885px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+    }
+
+    #content {
+        background-color: #fff;
+        width: 885px;
+        margin: 0 auto 50px auto;
+    }
+
+    .sidenav {
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 229px;
+        left: 250px;
+        background: rgb(189, 189, 189);
+        overflow-x: hidden;
+        padding: 6px 10px 8px 10px;
+      }
+
+      h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: monospace;
+        font-weight: lighter; 
+    }

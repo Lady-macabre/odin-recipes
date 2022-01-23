@@ -1,0 +1,115 @@
+h1 {
+    color: #000000;
+    font-size: 70px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+    padding: 30px 30px 30px 395px;
+    border-bottom: 3px solid rgb(143, 197, 117);
+}
+
+.navbar {
+    list-style-type: none;
+    height: 35px;
+    margin: 0 0 35px 0;
+    font-size: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    text-align: center;
+    border-bottom: 3px solid rgb(143, 197, 117);
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar a{
+    background-color: transparent;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 75px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar ul{
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lasagne {
+    width: 885px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-right: auto;
+    justify-content: space-around;
+    }
+
+#content {
+    background-color: #fff;
+    font-size: 16px;
+    width: 885px;
+    margin: 0 auto 50px 400px;
+    }
+
+.sidenav {
+    font-size: 16px;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 246px;
+    right: 375px;
+    background: rgb(214, 248, 198);
+    overflow-x: hidden;
+    padding: 0px 10px 20px 10px;
+      }
+
+h2 {
+    font-size: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0 625px 0 400px; 
+    border-bottom: 3px solid rgb(143, 197, 117);
+    }
+
+h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    border-bottom: 3px solid rgb(143, 197, 117);
+    }
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    margin: 15px 20px 15px 20px; 
+    }
+
+
+
+p {
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 15px 400px;
+    }
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    }
+
+li span {
+    font-weight: normal;
+}
