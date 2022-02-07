@@ -13,7 +13,7 @@ h1 {
 .navbar {
     list-style-type: none;
     height: 35px;
-    margin: 0 0 35px -15px;
+    margin: 0 0 35px 0;
     font-size: 0;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
@@ -39,47 +39,24 @@ h1 {
 
 
 body {
-    margin: 0; 
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-div {
-    color: black;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
 
-.recipe {
-    height: 200px;
-    width: 250px;
-
-}
-
-.image-links {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1300px;
-    justify-content: space-around;
-}
-
-.image-links img {
-    display: inline;
-}
-
-.image-link{
-    display: flex;
-    flex-direction: column;
+h2 {
+    font-size: 50px;
     text-align: left;
-    width: 300px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0 625px 0 400px; 
+    border-bottom: 3px solid rgb(143, 197, 117);
+    }
+
 
 p {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 625px 0 400px;
 
-h2{
-    text-align: center;
-
-}
+    }

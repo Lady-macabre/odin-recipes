@@ -63,6 +63,17 @@ body {
         justify-content: space-around;
         }
 
+        .sesame{
+                width: 332px;
+                height: 448px;
+                display: flex;
+                flex-direction: row;
+                margin-left: 635px;
+                margin-right: auto;
+                justify-content: space-around;
+            }
+
+
 #content {
     background-color: #fff;
     font-size: 16px;
